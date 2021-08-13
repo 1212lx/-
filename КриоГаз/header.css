@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    border-bottom: 1px solid white;
+    width: 1700px;
+    height: 70px;
+}
+.logo{
+    position: absolute;
+    top:20px;
+    left: 150px;
+}
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style-type: none;;
+}
+.nav ul{
+    display: flex;
+
+}
+.nav li{
+    margin-left: 20px;
+}
+.nav{
+    position: absolute;
+    top: 20px;
+    left: 400px;
+}
+.contact{
+    position: absolute;
+    top: 10px;
+    left: 1100px;
+    width: 150px;
+    color: white;
+}
+.img_1{
+    width: 1700px;
+}
+.header{
+ background: url("./img/Kriogaz.jpg");
+}
